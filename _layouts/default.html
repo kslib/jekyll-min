@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.4.0/github-markdown.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/arduino-light.min.css">
+  <style type="text/css">
+    .wrapper{
+      width: 700px;
+      margin: 40px auto;
+      position:relative;
+      padding: 0 20px;
+    }
+    .index-pic {
+      position: absolute;
+      top: 0;
+      right: 100%;
+    }
+    .pull-right{
+      float:right;
+    }
+    .footer{
+      padding-top: .3em;
+      border-top: 1px solid #eee;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper markdown-body">
+    <div class="header">  
+      <a href="/"><img src="https://raw.githubusercontent.com/kyshel/file/master/imgs/kyshel-mark.png" class="index-pic" width="100px"></a>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+    <div class="footer">
+      Made With ❤ By <a href="https://github.com/kyshel">Kyshel</a> - 2016
+      <a class="pull-right" href="https://github.com/kyshel">    
+      </a>
+    </div>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+  <script>
+    console.log(' \nKyshel.me 2016 🌟 \nI\'m gonna give you my heart ~ \n ');
+    hljs.initHighlightingOnLoad();
+  </script>
+
+</body>
+</html>
