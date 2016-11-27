@@ -1,2 +1,2 @@
 # jekyll-min
-Most minimal jekyll sample
+Minimal jekyll site
